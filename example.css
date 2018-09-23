@@ -1,0 +1,303 @@
+  body {
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+	color:#b7aeac;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+
+}
+
+.navigation  li.logo {
+  color: #b7aeac;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  -webkit-transition: font-size 0.5s;
+
+
+}
+.navigation  li.logo:hover {
+  color:  #9b2a14;
+  font-size: 50px;
+  font-weight: 1000;
+  letter-spacing: 17px;
+      transition: width 2s;
+-webkit-transition: font-size 3s;
+-webkit-transition: font-weight 3s;
+
+-webkit-transition: color 3s;
+}
+
+#banner {
+  background-image: url("/home/asmit/Desktop/11.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 1840px;
+  width: 2740px;
+}
+
+#banner .content h1 {
+  border: 3px solid white;
+position:relative;
+  top: 500px;
+  right: 400px;
+  width: 800px;
+  margin: auto auto;
+}
+#banner2 .content1 h1{
+border: 3px solid white;
+position:relative;
+  top: 1000px;
+  right: 400px;
+  width: 800px;
+  margin: auto auto;
+  border-radius: 10;
+
+}
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+
+.pull-quote {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.byline {
+  border-bottom: 1px solid LightGrey;
+  border-top: 1px solid LightGrey;
+  color: DarkGrey;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid black;
+  color: red;
+}
+.rotator {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color:teal;
+}
+.transition {
+  -webkit-transition: all 1000s linear;
+  -moz-transition: all 1000s linear;
+  -ms-transition: all 1000s linear;
+  -o-transition: all 1000s linear;
+  transition: all 1000s linear;
+}
+.translateAnimationClass { 
+  -webkit-transform: rotateX(43200deg) rotateY(14400deg);
+  -moz-transform: rotateX(43200deg) rotateY(14400deg);
+  -ms-transform: rotateX(43200deg) rotateY(14400deg);
+  -o-transform: rotateX(43200deg) rotateY(14400deg);
+  transform: rotateX(43200deg) rotateY(14400deg); 
+}
+.animation {
+  -webkit-animation: rotator 25s linear infinite;
+  -moz-animation: rotator 25s linear infinite;
+  -ms-animation: rotator 25s linear infinite;
+  -o-animation: rotator 25s linear infinite;
+  animation: rotator 25s linear infinite;
+}
+
+@-webkit-keyframes rotator {
+  0%   { -webkit-transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { -webkit-transform: rotateX(1080deg) rotateY(360deg);  }
+}
+@-moz-keyframes rotator {
+  0%   { -moz-transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { -moz-transform: rotateX(1080deg) rotateY(360deg);  }
+}
+@-ms-keyframes rotator {
+  0%   { -ms-transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { -ms-transform: rotateX(1080deg) rotateY(360deg);  }
+}
+@-o-keyframes rotator {
+  0%   { -o-transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { -o-transform: rotateX(1080deg) rotateY(360deg);  }
+}
+@keyframes rotator {
+  0%   { transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { transform: rotateX(1080deg) rotateY(360deg);  }
+}
+ CSS Result
+EDIT ON
+ .spiralContainer {
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  overflow:hidden;
+  margin:20px;
+  
+  -webkit-animation: spin 3s linear 0s infinite reverse;
+  -moz-animation: spin 3s linear 0s infinite reverse;  
+  -ms-animation: spin 3s linear 0s infinite reverse;
+  -o-animation: spin 3s linear 0s infinite reverse;
+  animation: spin 3s linear 0s infinite reverse;
+  
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;  
+  animation-play-state: paused;
+}
+.spiral {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  background-image: url(http://farm7.staticflickr.com/6115/6319704650_0a2bd0dcef_o.jpg);
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  
+  
+  -webkit-animation: spin 6s linear 0s infinite normal;
+  -moz-animation: spin 6s linear 0s infinite normal;
+  -ms-animation: spin 6s linear 0s infinite normal;
+  -o-animation: spin 6s linear 0s infinite normal;
+  animation: spin 6s linear 0s infinite normal;
+}
+.spiralContainer:hover {
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+  0% {-webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-ms-keyframes spin {
+  0% {-ms-transform: rotate(360deg); }
+  100% { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(360deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@-o-keyframes spin {
+  0% { -o-transform: rotate(360deg); }
+  100% { -o-transform: rotate(0deg); }
+}
+.dabba{
+
+top:2000px;
+	background-color: black;
+	height:80px;
+	width: 1850px;
+}
+.typed-cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+canvas {
+  display: block;
+}
+.dabba1{
+
+
+	background-color: #9b2a14;
+	height:10px;
+	width: 1850px;
+}
+
+
+.endvala{
+    background-color: black;
+    height: 40px;
+    width: 1850px;
+    border: 25px ;
+    border-color:  #9b2a14;
+    padding: 25px;
+    margin: 25px;
+
+}
